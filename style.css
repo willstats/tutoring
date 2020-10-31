@@ -68,6 +68,12 @@ a:hover{
     width: 85%;
     margin: 20px auto;
     border-radius: 30px;
+    box-shadow: 0px 10px 30px #72727270;
+    transition: box-shadow 1s;
+}
+
+#subbox:hover {
+    box-shadow: 0px 10px 30px #4747479a;    
 }
 
 #subjects h2 {
@@ -93,6 +99,74 @@ a:hover{
 #last {
     padding-bottom: 10px;
 }
+
+@media (min-width: 700px) {
+
+    #title h1 {
+        font-size: 80px;
+    }
+
+    #about {
+        width: 610px;
+    }
+
+    #about p {
+        font-size: 22px;
+    }
+
+    #mathphys {
+        margin-right: 60px;
+    }
+    
+    #chemfrsat {
+        margin-top: -378px;
+        margin-left: 340px;
+    }
+}
+
+@media (min-width: 1180px) {
+
+    #title {
+        width: 800px;
+        margin-left: 80px;
+        margin-right: 0;
+    }
+
+    #title h1 {
+        font-size: 120px;
+    }
+
+    #title h2 {
+        font-size: 20px;
+    }
+
+    #about {
+        margin-left: 80px;
+        margin-right: 0;
+        padding-left: 16px;
+        padding-top: 60px;
+        width: 35%;
+        float: left;
+    }
+
+    #subjects {
+        float: right;
+        margin-top: -22px;
+        margin-right: 2vw;
+    }
+}
+
+@media (min-width: 1400px) {
+    
+    #about p {
+        font-size: 26px;
+    }
+
+    #about {
+        width: 45%;
+    }
+}
+
 
 @media (min-width: 1600px) {
 
